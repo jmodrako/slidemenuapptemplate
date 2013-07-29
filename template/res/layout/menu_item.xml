@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:custom="http://schemas.android.com/apk/res/com.template"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="48dip"
+              android:paddingLeft="@dimen/fragment_padding"
+              android:paddingRight="@dimen/small_fragment_padding"
+              android:gravity="center_vertical">
+
+    <ImageView
+            android:id="@+id/item_icon"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:scaleType="centerInside"
+            android:layout_marginRight="@dimen/fragment_padding"/>
+
+    <com.template.ui.CustomFontTextView
+            android:id="@+id/item_text"
+            android:layout_width="0dip"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textColor="@color/menu_item_text"
+            custom:customFont="Roboto-Light.ttf"
+            android:textSize="@dimen/big_medium_font"
+            android:duplicateParentState="true"
+            android:singleLine="true"/>
+
+    <RadioButton
+            android:id="@+id/item_radio"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:clickable="false"
+            android:focusable="false"
+            android:visibility="gone"/>
+
+</LinearLayout>

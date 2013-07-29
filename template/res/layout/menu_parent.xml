@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.template.ui.CustomFontTextView xmlns:android="http://schemas.android.com/apk/res/android"
+                                   xmlns:custom="http://schemas.android.com/apk/res/com.template"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:textColor="@color/parent_text_gray"
+                                   android:id="@+id/item_text"
+                                   android:background="@color/background_gray"
+                                   custom:customFont="Roboto-CondensedItalic.ttf"
+                                   android:padding="@dimen/fragment_padding"
+                                   android:textSize="@dimen/smaller_font"
+                                   android:singleLine="true"/>

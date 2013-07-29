@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="action_bar_blue">#0093d1</color>
+
+    <color name="background_gray">@color/white</color>
+
+    <color name="white">#ffffff</color>
+    <color name="text_gray">#4e4e4e</color>
+    <color name="parent_text_gray">#999999</color>
+    <color name="menu_active_elem">#6f6f6f</color>
+
+    <color name="menu_shadow_end">#804e4e4e</color>
+    <color name="menu_shadow_start">#004e4e4e</color>
+</resources>

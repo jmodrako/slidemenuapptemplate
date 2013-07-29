@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_fragment_padding">6dp</dimen>
+    <dimen name="fragment_padding">10dp</dimen>
+    <dimen name="big_fragment_padding">20dp</dimen>
+    <dimen name="menu_width">250dp</dimen>
+    <dimen name="content_width">510dp</dimen>
+
+    <dimen name="biggest_font">55sp</dimen>
+    <dimen name="bigger_big_font">44sp</dimen>
+    <dimen name="bigger_big_font">36sp</dimen>
+    <dimen name="bigger_font">36sp</dimen>
+    <dimen name="big_font">28sp</dimen>
+    <dimen name="bigger_medium_font">25sp</dimen>
+    <dimen name="big_medium_font">21sp</dimen>
+    <dimen name="mediumer_font">19sp</dimen>
+    <dimen name="medium_font">18sp</dimen>
+    <dimen name="small_font">16sp</dimen>
+    <dimen name="smaller_font">14sp</dimen>
+    <dimen name="smallest_font">12sp</dimen>
+
+
+
+</resources>

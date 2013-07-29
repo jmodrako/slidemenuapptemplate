@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.TemplateStyle" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        <item name="actionBarStyle">@style/ActionBarStyle</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="actionMenuTextColor">@color/white</item>
+    </style>
+
+
+    <style name="ActionBarStyle" parent="Widget.AppCompat.Light.ActionBar">
+        <item name="android:background">@color/action_bar_blue</item>
+        <item name="background">@color/action_bar_blue</item>
+        <item name="android:titleTextStyle">@style/TitleTextStyle</item>
+        <item name="titleTextStyle">@style/TitleTextStyle</item>
+
+    </style>
+
+
+    <style name="TitleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+
+</resources>

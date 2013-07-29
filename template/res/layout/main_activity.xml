@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.template.ui.SlidingPaneLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <fragment
+            android:layout_width="@dimen/menu_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:name="com.template.fragments.MenuFragment_"/>
+
+    <!-- The main content view -->
+
+    <LinearLayout
+            android:layout_width="@dimen/content_width"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/background_gray"
+            android:layout_weight="1">
+
+        <FrameLayout
+                android:id="@+id/main_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <!-- The navigation drawer -->
+
+</com.template.ui.SlidingPaneLayout>
+
